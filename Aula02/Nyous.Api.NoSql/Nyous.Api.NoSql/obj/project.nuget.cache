@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K3w1FZIElXGzFRYyeIaGGWYDb40hhuSbUoFJFIuA9QuON5ymcqpdbUhWF2jClpJ/W7XiwwtBJiNlxQDQAXqnGQ==",
+  "dgSpecHash": "oG2UD0kdED1EP0LjXsEb2SUwWoJTwiAOA6Lb4iNMvDukje5a4Smg+OMTLZ9GCHMXut1AQWznNGxB7y626N+R5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql.csproj",
+  "projectFilePath": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Aula02\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fic\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\fic\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

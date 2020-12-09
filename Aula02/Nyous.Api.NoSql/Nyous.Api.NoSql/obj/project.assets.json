@@ -4794,11 +4794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql.csproj",
+      "projectUniqueName": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Aula02\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql.csproj",
       "projectName": "Nyous.Api.NoSql",
-      "projectPath": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql.csproj",
+      "projectPath": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Aula02\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql.csproj",
       "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\obj\\",
+      "outputPath": "C:\\Users\\fic\\Documents\\eduardo_almeida\\Atividades\\Aulas_NoSql\\Aula02\\Nyous.Api.NoSql\\Nyous.Api.NoSql\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
