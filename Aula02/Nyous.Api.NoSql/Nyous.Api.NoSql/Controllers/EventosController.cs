@@ -89,7 +89,7 @@ namespace Nyous.Api.NoSql.Controllers
             {
                 _eventoRepository.Atualizar(id, evento);
 
-                return Ok();
+                return Ok(evento);
             }
             catch (Exception ex)
             {
