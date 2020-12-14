@@ -9,7 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Nyous.Api.NoSql.Contexts;
+using Nyous.Api.NoSql.Interfaces.Repositories;
+using Nyous.Api.NoSql.Repositories;
 
 namespace Nyous.Api.NoSql
 {
@@ -25,14 +28,17 @@ namespace Nyous.Api.NoSql
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            // Pega a informação do AppSettings
             services.Configure<NyousDatabaseSettings>(
-                    Configuration.GetSection(nameof(NyousDatabaseSettings))
+                    Configuration.GetSection("NyousDatabaseSettings")
                  );
 
-            services.AddSingleton<NyousDatabaseSettings>(
-                    sp => sp.GetRequiredService<IOptions>
+            // Faz a injeção de dependência
+            services.AddSingleton<INyousDatabaseSettings>(
+               sp => sp.GetRequiredService<IOptions<NyousDatabaseSettings>>().Value
                 );
+
+            services.AddSingleton<IEventoRepository, EventoRepository>();
 
             services.AddControllers();
         }
